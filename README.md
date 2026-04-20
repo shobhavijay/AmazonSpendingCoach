@@ -1,8 +1,8 @@
-# AmazonSpendingCoach
+# Amazon Spending Coach
 
 An AI-powered financial coaching agent that analyzes your Amazon order history and gives you honest, actionable insights into your spending habits — powered by [Claude](https://www.anthropic.com) and [LangGraph](https://langchain-ai.github.io/langgraph/).
 
-AmazonSpendingCoach reads your exported Amazon CSVs (order history, returns, cart history) and runs four parallel AI analyses:
+Amazon Spending Coach reads your exported Amazon CSVs (order history, returns, cart history) and runs four parallel AI analyses:
 
 | Analysis | What it surfaces |
 |---|---|
@@ -11,7 +11,7 @@ AmazonSpendingCoach reads your exported Amazon CSVs (order history, returns, car
 | **Spending Forecast** | Projects future spending trends using Prophet or ARIMA time-series models |
 | **Cart Analyzer** | Compares your saved-for-later cart against your actual purchases — reveals what you almost bought vs. what you held back on |
 
-All four analyses run in parallel and are combined into a single Markdown report saved to `output/report_v4.md`.
+All four analyses run in parallel and are combined into a single Markdown report.
 
 ---
 
