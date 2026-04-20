@@ -1,0 +1,18 @@
+# Include packaging metadata
+include pyproject.toml
+include .env.example
+
+# Include source
+recursive-include config *.py
+recursive-include graph *.py
+include main.py
+include logging_config.py
+
+# Exclude everything sensitive — API keys, data, generated output
+exclude .env
+exclude *.csv
+recursive-exclude output *
+recursive-exclude tests *
+global-exclude __pycache__
+global-exclude *.py[cod]
+global-exclude *.log
