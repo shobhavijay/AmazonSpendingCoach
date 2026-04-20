@@ -2,7 +2,6 @@
 
 An AI-powered financial coaching agent that analyzes your Amazon order history and gives you honest, actionable insights into your spending habits — powered by [Claude](https://www.anthropic.com) and [LangGraph](https://langchain-ai.github.io/langgraph/).
 
-> Most of the code in this project was developed using [Claude Code](https://claude.ai/code), Anthropic's AI coding assistant.
 
 AmazonSpendingCoach reads your exported Amazon CSVs (order history, returns, cart history) and runs four parallel AI analyses:
 
